@@ -39,8 +39,8 @@ class Ui_MainWindow(object):
                 self.connection.commit();
                 if(sql):
                     self.box();
-                    gmail_user = 'avinashchourasiya88@gmail.com'  
-                    gmail_password = 'imoracleyesameen9833avi7678'
+                    gmail_user = ''  
+                    gmail_password = ''
 
                     try:  
                         server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
